@@ -1,0 +1,252 @@
+/* fira sans */
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+/* Shared Style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-size{
+    font-weight: 100px;
+}
+.dark{
+    color: rgba(14, 14, 14, 0.5);
+}
+.dark-2{
+    color: rgba(14, 14, 14, 0.7);
+}
+.dark-3{
+    color: rgba(14, 14, 14, 0.8)
+}
+.dark-4{
+    color: rgba(14, 14, 14, 0.6);
+}
+.text{
+    text-align: center;
+} 
+.btn-primary{
+    background-color: #F5F5F5;
+    font-weight: 200;
+    font-size: 20px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.section-description{
+    color: #757575 ;
+    font-size: 18px;
+}
+/* Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+.banner-content{
+    width: 622px;
+}
+.content-color{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+.banner-title{
+    font-weight: bold;   
+    font-size:56px;
+}
+.banner-pro-pic{
+    width: 474.03px;
+}
+.btn{
+    background-color: #006A50;
+    font-weight: 200;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/*  about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* skills-container */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 24px;
+    border-radius: 16px;
+   }
+.box-color{
+    background-color: #FFFFFF;
+}
+.box-model-1{
+        background-color: rgba(84, 144, 245, 0.2);
+        border-radius: 16px;
+        padding: 32px;
+}
+.btn-1{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+.box-model-2{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.btn-2{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+.box-model-3{
+    background-color: #F7EBCF;
+        border-radius: 16px;
+        padding: 32px;
+}
+.btn-3{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+/*table*/
+.Box-model{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.box{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.color{
+    background-color: #C6E4D6;
+    justify-content: space-between;
+    padding: 24px;
+}
+.box-type{
+    padding: 24px 24px;
+}
+.td, th{
+    border: solid gray;
+    padding: ;
+}
+.banner-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+}
+.banner-pic{
+    width: 408px;
+    border-radius: 24px;
+}
+.content{
+    width: 744px;
+}
+.banner-description-1{
+    padding: 48px;
+}
+/*resume-container*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+.table{
+    border: collapse;
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.button-1{
+    background-color: #FFFFFF;
+    font-weight: 200px;
+    font-size: 20px;
+    color: #0E0E0E;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 16px;
+}
+.button-2{
+    background-color: #C6E4D6;
+    font-weight: 200px;
+    font-size: 20px;
+    color: #0E0E0E;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 16px;
+}
